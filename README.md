@@ -10,11 +10,11 @@ Setup
 Create an account at www.parse.com and use the following guide to set up Cloud Code:
 https://parse.com/docs/cloud_code_guide
 
-Replace main.js with main.js in this repository
+Replace main.js with cloud/main.js in this repository
 
 Replace the credentials to yours
 
 Deploy to Parse Cloud Code
 
-Contiune the Spotify Tutorial:
+Continue the Spotify Tutorial:
 https://developer.spotify.com/technologies/spotify-ios-sdk/tutorial/#setting-up-your-token-exchange-service
