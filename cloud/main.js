@@ -5,9 +5,9 @@ var express = require("express"),
     url = require('url');
 
 var config = new Parse.Object("Config");
-config.set("client_id", "e6695c6d22214e0f832006889566df9c");
-config.set("client_secret", "29eb02041ba646179a1189dccac112c7");
-config.set("callback_url", "spotifyiossdkexample://");
+config.set("client_id", "ENTER YOUR CLIENT ID HERE");
+config.set("client_secret", "ENTER YOUR CLIENT SECRET HERE");
+config.set("callback_url", "YOUR CALLBACK URL HERE://");
 config.set("endpoint", "https://accounts.spotify.com");
 
 var AUTH_HEADER = "Basic " + new buffer.Buffer(config.get("client_id") + ":" + config.get("client_secret")).toString("base64");

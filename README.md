@@ -1,8 +1,8 @@
 Spotify Token Swap Service for Parse
 =============
 
-How to create your own Token Exchange Service using Parse. 
-The current CLIENT_ID, CLIENT_SECRET and CLIENT_CALLBACK_URL will work with Spotify example apps.
+How to create your own Token Exchange Service using Parse.
+Replace credentials in cloud/main.js with your own.
 
 Setup
 =============
